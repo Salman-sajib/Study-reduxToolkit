@@ -1,9 +1,12 @@
 import './App.css';
+import AddTodo from './components/AddTodo';
+import Todos from './components/Todos';
 
 function App() {
   return (
-    <div>
-      <h1 className='text-5xl text-red-700'>Learn Readux Toolkit</h1>
+    <div className='App'>
+      <AddTodo />
+      <Todos />
     </div>
   );
 }
